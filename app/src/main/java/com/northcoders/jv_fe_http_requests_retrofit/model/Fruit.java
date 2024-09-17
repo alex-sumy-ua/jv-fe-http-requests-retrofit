@@ -1,12 +1,25 @@
 package com.northcoders.jv_fe_http_requests_retrofit.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Fruit {
 
+    @SerializedName("id")
     private int id;
+
+    @SerializedName("name")
     private String name;
+
+    @SerializedName("family")
     private String family;
+
+    @SerializedName("order")
     private String order;
+
+    @SerializedName("genus")
     private String genus;
+
+    @SerializedName("nutritions")
     private Nutritions nutritions;
 
     public Fruit() {

@@ -1,15 +1,25 @@
 package com.northcoders.jv_fe_http_requests_retrofit.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Objects;
 
 public class Nutritions {
 
+    @SerializedName("calories")
     private int calories;
-    private float fat;
-    private float sugar;
-    private float carbohydrates;
-    private float protein;
 
+    @SerializedName("fat")
+    private float fat;
+
+    @SerializedName("sugar")
+    private float sugar;
+
+    @SerializedName("carbohydrates")
+    private float carbohydrates;
+
+    @SerializedName("protein")
+    private float protein;
     public Nutritions() {
     }
 
