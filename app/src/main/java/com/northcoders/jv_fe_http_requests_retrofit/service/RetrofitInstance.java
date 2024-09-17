@@ -1,4 +1,4 @@
-package com.northcoders.jv_fe_http_requests_retrofit.repository;
+package com.northcoders.jv_fe_http_requests_retrofit.service;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

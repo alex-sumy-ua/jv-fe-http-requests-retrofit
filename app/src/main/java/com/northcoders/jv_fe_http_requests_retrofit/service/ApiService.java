@@ -1,4 +1,4 @@
-package com.northcoders.jv_fe_http_requests_retrofit.repository;
+package com.northcoders.jv_fe_http_requests_retrofit.service;
 
 import com.northcoders.jv_fe_http_requests_retrofit.model.Fruit;
 
@@ -11,5 +11,5 @@ public interface ApiService {
 
     @GET
     Call<List<Fruit>> getAllFruits();
-    
+
 }
