@@ -1,11 +1,13 @@
 package com.northcoders.jv_fe_http_requests_retrofit.model;
 
+import androidx.databinding.BaseObservable;
+
 import com.google.gson.annotations.SerializedName;
 
-public class Fruit {
+public class Fruit extends BaseObservable {
 
     @SerializedName("id")
-    private int id;
+    private long id;
 
     @SerializedName("name")
     private String name;
@@ -34,11 +36,11 @@ public class Fruit {
         this.nutritions = nutritions;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
