@@ -9,7 +9,6 @@ import retrofit2.http.GET;
 
 public interface ApiService {
 
-    @GET
+    @GET("fruits")
     Call<List<Fruit>> getAllFruits();
-
 }
